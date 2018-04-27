@@ -1,0 +1,51 @@
+body {
+  font: 13px/20px 'Lucida Grande', Tahoma, Verdana, sans-serif;
+  color: #404040;
+  background: #90A5AC;
+}
+h1 {
+    line-height: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #555;
+    text-align: center;
+    background: white;
+    border-bottom: 1px solid #cfcfcf;
+    border-radius: 3px 3px 0 0;
+  }
+ input[type=text], input[type=password] {
+  margin: 10px;
+  padding: 0 10px;
+  width: 300px;
+  height: 40px;
+  color: #404040;
+  background: white;
+  border: 1px solid;
+  border-color: #c4c4c4 #d1d1d1 #d4d4d4;
+  border-radius: 2px;
+  outline: 5px solid #eff4f7;
+ vertical-align: middle;
+ position: relative;
+}
+.design{
+	text-align: center;
+	position: relative;
+  margin: 0 auto;
+  padding: 20px 20px 20px;
+  width: 310px;
+  border-radius: 2px;
+}
+.des{
+	margin: 70px auto;
+	width: 240px;
+}
+.sub{
+	text-align: center;
+	width: 60px;
+	font-size: 16px;
+}
+.sign{
+	text-align: center;
+	color: black;
+	font-size: 15px;
+}
