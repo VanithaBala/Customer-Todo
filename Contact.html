@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="contact.css">
+	<script type="text/javascript" src="contact.js"></script>
+</head>
+<body>
+	<div class="all">
+	<div class="design">
+	<button  class="popup" id="pop" onclick="show()">Create Customer</button>
+	<ul id="customerList" >
+ 	<span class="close"></span>
+	</ul>
+	<div class="popuptext" id="myPopup" style="display:none">
+	<label>First Name</label>
+	<input type="text" name="FirstName" id="first" placeholder="First name" required=""><br><br>
+	<label>Last Name</label>
+	<input type="text" name="LastName" id="last" placeholder="Last name"><br><br>
+	<lable>Email address</lable>
+	<input type="email" name="Email" id="address" placeholder="email"><br><br>
+	<button onclick="addCustomer()" id="addButton">Add</button>
+	</div>
+	</div>
+	<div class="design1">
+	<label>First Name</label>
+	<input type="text" name="FirstName" id="firstName" placeholder="First name" required=""><br><br>
+	<label>Last Name</label>
+	<input type="text" name="LastName" id="lastName" placeholder="Last name"><br><br>
+	<lable>Email address</lable>
+	<input type="email" name="Email" id="email" placeholder="email"><br><br>
+	<button onclick="addCustomer()" id="updateButton">Update</button>
+	</div>
+	<div class="design2" id="todoId"><br>
+	<input type="text" placeholder="add item here" id="inputTodo">
+	<button onclick="addItem()" id="ButtonItem">Add Item</button>
+	<ul id="TodoList">
+ 	<span class="close"></span>
+	</ul>
+	   <!--div id="TodoList"></div-->
+	</div>
+</body>
+</html>
